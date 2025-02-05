@@ -65,17 +65,17 @@ import korea from "./assets/images/korea.jpeg";
 const dataportfolio = [{
         img: korea,
         description: "Guldtorget",
-        link: "#",
+        link: "/guldtorget",
     },
     {
         img: korea,
         description: "Japan",
-        link: "#",
+        link: "/japan",
     },
     {
         img: korea,
         description: "Sydkorea",
-        link: "#",
+        link: "/sydkorea",
     },
  
 

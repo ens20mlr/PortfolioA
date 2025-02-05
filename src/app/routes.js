@@ -7,7 +7,7 @@ import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-
+import Guldtorget from "../pages/guldtorget";
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
     <CSSTransition
@@ -24,6 +24,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/guldtorget" element={<Guldtorget />} /> {/* 🆕 Ny route */}
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>

@@ -1,0 +1,80 @@
+.project-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .project-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .project-text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .project-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .project-text h3 {
+    font-size: 22px;
+    color: #5cccc9; /* Samma färgtema som andra sidor */
+    margin-bottom: 20px;
+  }
+  
+  .project-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .project-details {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .project-details li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .project-image {
+    flex: 1;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-extra {
+    margin-top: 40px;
+  }
+  
+  .project-extra h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-extra p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 991px) {
+    .project-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .project-text {
+      text-align: center;
+    }
+  }
+  
