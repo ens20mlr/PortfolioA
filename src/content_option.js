@@ -1,6 +1,6 @@
 const logotext = "FahlmanArchitecture";
 const meta = {
-    title: "Alva Fahlman",
+    title: "Alva Fahlman     ",
     description: "I’m Alva from Skeå",
 };
 import alva from "./assets/images/alva.jpeg";
