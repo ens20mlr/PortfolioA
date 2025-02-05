@@ -7,7 +7,7 @@ import {
 import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header";
-import { HashRouter as Router } from "react-router-dom";
+//import { HashRouter as Router } from "react-router-dom";
 
 
 import "./App.css";
