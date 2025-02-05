@@ -39,7 +39,7 @@ section {
 
 @media (max-width: 768px) {
     .intro_sec {
-        margin-top: 40px; /* Justera detta värde så det ser bra ut */
+        margin-top: 80px; /* Justera detta värde så det ser bra ut */
     }
 }
 
