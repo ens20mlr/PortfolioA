@@ -37,6 +37,13 @@ section {
     margin-top: -60px;
 }
 
+@media (max-width: 768px) {
+    .intro_sec {
+        margin-top: 40px; /* Justera detta värde så det ser bra ut */
+    }
+}
+
+
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;
