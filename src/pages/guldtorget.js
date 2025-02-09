@@ -6,6 +6,7 @@ const Guldtorget = () => {
   return (
     <div className="project-container">
       <div className="project-content">
+        
         <div className="project-text">
           <h1>Guldtorget</h1>
           <h3>Arkitekturprojekt</h3>

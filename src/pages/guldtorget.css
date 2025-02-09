@@ -22,7 +22,7 @@
   
   .project-text h3 {
     font-size: 22px;
-    color: #5cccc9; /* Samma färgtema som andra sidor */
+    color: #ba112a; /* Samma färgtema som andra sidor */
     margin-bottom: 20px;
   }
   
@@ -77,4 +77,43 @@
       text-align: center;
     }
   }
-  
+  /* 🔹 Sektion med bakgrundsbild */
+.project-hero {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Justera höjden efter behov */
+    background: url("../assets/images/korea.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 🔹 Mörk overlay med opacity */
+.project-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Ändra opaciteten vid behov */
+}
+
+/* 🔹 Text inuti hero-sektionen */
+.overlay-text {
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.overlay-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.overlay-text h3 {
+    font-size: 22px;
+    font-weight: 400;
+}

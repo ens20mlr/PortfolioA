@@ -83,9 +83,10 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "alva",
+
+    description: "Say hi! I'd love to chat about architecture, design, or any exciting ideas you have.",
+    YOUR_EMAIL: "fahlmanalva@gmail.com",
     YOUR_FONE: "+46777",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -97,6 +98,7 @@ const socialprofils = {
 
    
     linkedin: "https://www.linkedin.com/in/alva-fahlman/?originalSubdomain=se",
+    instagram: "https://www.instagram.com/fahlmanarchitecture/",
    
 };
 export {
